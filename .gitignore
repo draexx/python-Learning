@@ -2,3 +2,5 @@
 # Default ignored files
 .idea/*
 .idea
+pySample/venv
+pySample/venv/*
