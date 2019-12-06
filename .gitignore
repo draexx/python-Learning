@@ -4,3 +4,6 @@
 .idea
 pySample/venv
 pySample/venv/*
+
+flaskProject/.idea/
+flaskProject/.idea/*
