@@ -9,12 +9,8 @@ flaskProject Prueba de un proyecto pequeño con flask framework
 
 ### Prerequisites
 
-pySample requiere pyTesseract
+pySample requiere pyTesseract an openCV para la lectura de imagenes
 flaskProject tiene el archivo requeriments donde estan las dependencias que se necesitan
-
-```
-Give examples
-```
 
 ### Installing
 
@@ -52,7 +48,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * **Pedro Carranza** - *Initial work* - [Draexx](https://github.com/draexx)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/HackLab-Sucre/hacklab-sucre.github.io/contributors) who participated in this project.
 
 ## License
 
