@@ -48,7 +48,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * **Pedro Carranza** - *Initial work* - [Draexx](https://github.com/draexx)
 
-See also the list of [contributors](https://github.com/HackLab-Sucre/hacklab-sucre.github.io/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/draexx/python-Learning/contributors) who participated in this project.
 
 ## License
 
