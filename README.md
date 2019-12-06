@@ -41,7 +41,7 @@ Explain how to run the automated tests for this system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/draexx/946513c6cb2ee2adffca97b2999dc4d2) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
