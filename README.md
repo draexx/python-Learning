@@ -1,81 +1,79 @@
-# Python
+# Python Learning Repository
 
-Este repositorio es para pruebas de python  tanto en programacion de sintaxis como prueba de framework
+This repository is for Python programming and framework testing.
 
 ## Getting Started
 
-PySample contiene codigo de python para prueba
-flaskProject Prueba de un proyecto pequeño con flask framework
+This repository contains two main projects:
+
+*   **PySample**: Contains Python code for various syntax and library tests.
+*   **flaskProject**: A small project demonstrating the use of the Flask framework.
 
 ### Prerequisites
 
-pySample requiere pyTesseract an openCV para la lectura de imagenes
-flaskProject tiene el archivo requeriments donde estan las dependencias que se necesitan
+*   **PySample**: Requires pyTesseract and OpenCV for image reading.
+    *   You can install these using pip:
+        ```bash
+        pip install pytesseract opencv-python
+        ```
+*   **flaskProject**: Dependencies are listed in `flaskProject/requeriments.txt`.
 
 ### Installing
 
-flaskProject para instalar las dependencias
+**flaskProject**:
 
-```
-pip install -r requeriments.txt
-```
+1.  Navigate to the `flaskProject` directory.
+2.  Install the dependencies:
+    ```bash
+    pip install -r requeriments.txt
+    ```
 
-And repeat
+### Environment Variables
 
-```
-until finished
-```
-
-### Variables de entorno
-
-Para que el flaskProject funcione debes crear las siguientes variables de entorno:
+For the `flaskProject` to work, you need to set the following environment variables:
 
 #### Linux/Mac
 
-    export FLASK_APP="entrypoint"
-    export FLASK_ENV="development"
-    export APP_SETTINGS_MODULE="config.local"
+```bash
+export FLASK_APP="entrypoint"
+export FLASK_ENV="development"
+export APP_SETTINGS_MODULE="config.local"
+```
 
 #### Windows
 
-    set "FLASK_APP=entrypoint"
-    set "FLASK_ENV=development"
-    set "APP_SETTINGS_MODULE=config.local"
-    
-> Mi recomendación para las pruebas es que añadas esas variables en el fichero "activate" o "activate.bat"
-> si estás usando virtualenv
+```powershell
+set FLASK_APP="entrypoint"
+set FLASK_ENV="development"
+set APP_SETTINGS_MODULE="config.local"
+```
 
-End with an example of getting some data out of the system or using it for a little demo
+> **Recommendation**: If you are using a virtual environment (e.g., `virtualenv`), it's good practice to add these environment variable settings to the `activate` (for Linux/Mac) or `activate.bat` (for Windows) script within your virtual environment's directory.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
+Currently, this project does not have an automated test suite.
 
 ## Built With
 
-* [Flask](https://www.palletsprojects.com/p/flask/) - The web framework used
-* [pyTesseract](https://pypi.org/project/pytesseract/) - OCR tool for python
+*   [Flask](https://www.palletsprojects.com/p/flask/) - The web framework used in `flaskProject`.
+*   [pyTesseract](https://pypi.org/project/pytesseract/) - OCR tool used in `PySample`.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/draexx/946513c6cb2ee2adffca97b2999dc4d2) for details on our code of conduct, and the process for submitting pull requests to us.
-
+Please read [CONTRIBUTING.md](https://gist.github.com/draexx/946513c6cb2ee2adffca97b2999dc4d2) for details on our code of conduct and the process for submitting pull requests.
 
 ## Authors
 
-* **Pedro Carranza** - *Initial work* - [Draexx](https://github.com/draexx)
+*   **Pedro Carranza** - *Initial work* - [Draexx](https://github.com/draexx)
 
 See also the list of [contributors](https://github.com/draexx/python-Learning/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the ??? License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-
-
+*   Hat tip to anyone whose code was used.
+*   Inspiration.
